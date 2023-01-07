@@ -18,6 +18,9 @@ AR-FIELTS is the first scoring protocol created to look for indications of profi
 <br>
 
 To calculate the experience in solving identical or similar problems using the data provided by the data screenshots.
+
+<br>
+
 Each measurement is accompanied by an ELO score similar to that of chess, and another score more similar to the traditional measurement system according to the country. For example, in mexico, it would handle a scoring system from 0 to 10 by tracing an inverse exponential curve in each evidence. Where passing 3 of the 6 tests indicates proficiency, and 4 expertise
 
 <br>
