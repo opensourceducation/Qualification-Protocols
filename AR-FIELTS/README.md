@@ -17,7 +17,7 @@ AR-FIELTS is the first scoring protocol created to look for indications of profi
 
 <br>
 
-To calculate the experience in solving identical or similar problems using the data provided by the data screenshots.
+To calculate the experience solving identical or similar problems using the data provided by the data screenshots.
 
 <br>
 
