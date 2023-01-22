@@ -6,14 +6,14 @@
 
 <br>
 
-AR-FIELTS is the first scoring protocol created to look for indications of proficiency in a specific area of knowledge by searching for evidence of:
+AR-FIELTS is the first scoring protocol created to assess proficiency in a specific field of knowledge by evaluating evidence of:
 
 - Frecuency
 - Interval
 - Evolution
 - Lot of data references(amount)
 - Time to resolve the problem
-- Space betwen proofs
+- Space between proofs
 
 <br>
 

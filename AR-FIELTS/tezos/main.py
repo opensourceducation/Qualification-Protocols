@@ -1,31 +1,35 @@
 import smartpy as sp
 import pandas as pd
-
-# print("sp")
-# print(sp)
+from fake_identity_protocol import Identity_Protocol
 
 
 class Ar_Fielts:
-    def __init__(self, data, skill):
-        self.data = data
+    def __init__(self, uuid, skill):
+        self.uuid = uuid
         self.skill = skill
+        self.data = ''
 
-    def average(self):
-        print("mi data")
-        df = pd.read_csv('../fake_oscar_dataset.csv', sep=';')
+    def __get_user_data(self):
+        user_data = Identity_Protocol(self.uuid)
+        self.data = user_data.search_data()
+
+    def get_skill(self):
+        self.__get_user_data()
+        df = pd.read_csv(self.data, sep=';')
         df.sort_values("timestamp", ascending=True, inplace=True)
         my_query = f"topics.str.contains('{self.skill}')"
         print(my_query)
-        print(df.query("topics.str.contains('react')"))
+        print(df.query(my_query))
 
-        # class Ar_Fielts(sp.Contract):
 
-        #     def __init__(self, data):
-        #         self.init(data=data)
+# class Ar_Fielts(sp.Contract):
 
-        #     @sp.entry_point
-        #     def average(self, params):
-        #         # df = pd.DataFrame(self.data.data)
-        #         print(self.data)
-        #         # avg = df[params.column].mean()
-        #         # return avg
+#     def __init__(self, data):
+#         self.init(data=data)
+
+#     @sp.entry_point
+#     def average(self, params):
+#         # df = pd.DataFrame(self.data.data)
+#         print(self.data)
+#         # avg = df[params.column].mean()
+#         # return avg
