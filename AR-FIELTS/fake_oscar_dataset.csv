@@ -1,4 +1,4 @@
-timestamp; uid; question; answers; topics
+timestamp;uid;question;answers;topics
 "2021-09-23 12:33:40"; "b9f6b9c6-f8d2-4816-87a7-b9a2d1c8f8f3"; "How can I create a component in React?"; ["Use the `create-react-app` command" , "Manually set up the project using webpack and Babel"]; ['javascript', 'react', 'reactjs', 'frontend']
 "2021-06-14 08:12:03"; "b9f6b9c6-f8d2-4816-87a7-b9a2d1c8f8f3"; "How to set up a Node.js server?"; ["Use the `express` library" , "Use the `fastify` library"]; ['javascript', 'node', 'nodejs','express', 'backend']
 "2021-05-22 08:34:31"; "b9f6b9c6-f8d2-4816-87a7-b9a2d1c8f8f3"; "How to create an API with FastAPI?"; ["Use the `FastAPI` library" , "Use the `Flask` library"]; ['python', 'FastAPI', 'backend', 'Flask']
